@@ -12,6 +12,7 @@ class MP3Importer
   end 
   
   def import 
-    
+    files
+    binding.pry
   end 
 end 
