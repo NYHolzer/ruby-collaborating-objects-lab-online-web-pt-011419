@@ -13,5 +13,6 @@ class Song
     artist = file[0]
     song_new = Song.new(song)
     song_new.artist = artist
+    song_new
   end 
 end 
