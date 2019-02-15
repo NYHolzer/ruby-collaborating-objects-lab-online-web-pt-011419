@@ -12,7 +12,7 @@ class Song
     song_name = file[1]
     artist_name = file[0]
     song_new = Song.new(song_name)
-    song_new.artist = artist
+    song_new.artist = artist_name
     song_new
   end 
 end 
